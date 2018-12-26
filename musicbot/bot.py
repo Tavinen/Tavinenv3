@@ -1843,7 +1843,7 @@ class MusicBot(discord.Client):
                 delete_after=30
             )
 
-    async def cmd_summon(self, channel, guild, author, voice_channel):
+    async def cmd_join(self, channel, guild, author, voice_channel):
         """
         Usage:
             {command_prefix}summon
